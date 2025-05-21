@@ -1,0 +1,47 @@
+# General
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.bak
+*.tmp
+*.swo
+*.swp
+*~
+
+# Build directories
+Debug/
+Release/
+build/
+**/build/
+**/Debug/
+**/Release/
+
+# STM32CubeIDE
+.project
+.cproject
+.settings/
+*.launch
+*.ioc
+
+# PlatformIO
+.pio/
+.vscode/ # Can be user-specific, but often added for PIO projects
+
+# Keil
+*.uvproj
+*.uvopt
+*.uvgui
+*.uvprojx
+*.uvoptx
+*.uvguix
+Listings/
+Objects/
+RTE/
+
+# Other IDEs / System files
+.DS_Store
+Thumbs.db
+Desktop.ini
